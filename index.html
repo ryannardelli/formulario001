@@ -26,12 +26,11 @@
                 <label for="inome">Nome Completo:</label>
                 <input type="text" name="nome" id="inome"  required placeholder="nome completo" min="10" max="20">
 
-                <label for="iexpiracao">Expiração:</label>
-                <input type="number" name="expiracao" id="iexpiracao" required placeholder="expiração mês">
-                <input type="number" name="expiracao" id="iexpiracao" required placeholder="expiração ano">
+                <label for="idata">Expiração:</label>
+                <input type="month" name="data" id="idata">
 
                 <label for="icode">CVV code</label>
-                <input type="number" name="code" id="icode" required placeholder="cvv code">
+                <input type="number" name="code" id="icode" required placeholder="cvv code" min="3" max="3">
                 
                 <input type="reset" value="Cancelar">
                 <input type="submit" value="Enviar">
