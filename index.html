@@ -21,10 +21,10 @@
             <h1>Visa</h1>
             <form action="#" method="post">
                 <label for="inumero">Número do cartão:</label>
-                <input type="number" name="numero" id="inumero" required placeholder="**** **** **** ****">
+                <input type="number" name="numero" class="numero" id="inumero" required placeholder="**** **** **** ****" min="16" max="16">
 
                 <label for="inome">Nome Completo:</label>
-                <input type="text" name="nome" id="inome" required placeholder="nome completo">
+                <input type="text" name="nome" id="inome"  required placeholder="nome completo" min="10" max="20">
 
                 <label for="iexpiracao">Expiração:</label>
                 <input type="number" name="expiracao" id="iexpiracao" required placeholder="expiração mês">
