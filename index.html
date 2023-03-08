@@ -10,8 +10,10 @@
 <body>
     <main>
         <section id="cartao">
-            <img src="imagens/icone-visa-32px.png" alt="Visa">
-            <img src="imagens/icone-sem-contato-32px.png" alt="Sem contato">
+            <div class="visa">
+                <img src="imagens/icone-visa-32px.png" alt="Visa">
+            </div>
+            <img src="imagens/icone-sem-contato-32px.png" alt="Sem contato" class="sem-contato">
             <p>**** **** **** 4826</p>
         </section>
 
@@ -19,17 +21,17 @@
             <h1>Visa</h1>
             <form action="#" method="post">
                 <label for="inumero">Número do cartão:</label>
-                <input type="number" name="numero" id="inumero">
+                <input type="number" name="numero" id="inumero" required placeholder="**** **** **** ****">
 
                 <label for="inome">Nome Completo:</label>
-                <input type="text" name="nome" id="inome">
+                <input type="text" name="nome" id="inome" required placeholder="nome completo">
 
                 <label for="iexpiracao">Expiração:</label>
-                <input type="number" name="expiracao" id="iexpiracao">
-                <input type="number" name="expiracao" id="iexpiracao">
+                <input type="number" name="expiracao" id="iexpiracao" required placeholder="expiração mês">
+                <input type="number" name="expiracao" id="iexpiracao" required placeholder="expiração ano">
 
                 <label for="icode">CVV code</label>
-                <input type="number" name="code" id="icode">
+                <input type="number" name="code" id="icode" required placeholder="cvv code">
                 
                 <input type="reset" value="Cancelar">
                 <input type="submit" value="Enviar">
