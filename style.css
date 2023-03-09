@@ -92,7 +92,7 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) { /* Configurações para telas de celulares */
 
     * {
         font-family: Arial, Helvetica, sans-serif;
@@ -108,11 +108,6 @@
 
     body {
         background-color: var(--cor1);
-        color: white;
-    }
-
-    section#cartao {
-        background-color: var(--cor3);
         color: white;
     }
 
