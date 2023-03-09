@@ -6,7 +6,7 @@
         --cor3: #0855A3;
     }
 
-@media screen and (max-width: 600px) { /* Configuração para telas pequenas */
+@media screen and (max-width: 600px) { /* Configurações para telas pequenas */
     
     * {
         font-family: Arial, Helvetica, sans-serif;
