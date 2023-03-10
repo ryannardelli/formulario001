@@ -16,14 +16,12 @@
     }
 
     html, body {
-        width: 100vw;
         height: 100vh;
     }
 
     body {
         background-color: var(--cor1);
         color: black;
-        overflow-x: hidden;
     }
 
     main {
@@ -109,14 +107,12 @@
     }
 
     html, body {
-        width: 100vw;
         height: 100vh;
     }
 
     body {
         background-color: var(--cor1);
         color: white;
-        overflow-x: hidden;
     }
 
     main {
@@ -204,14 +200,12 @@
 
     html, body {
         background-color: var(--cor1);
-        width: 100vw;
         height: 100vh;
     }
 
     body {
         background-image: linear-gradient(to top, var(--cor1), var(--cor2));
         color: white;
-        overflow-x: hidden;
     }
 
     main {
@@ -301,14 +295,12 @@
     }
 
     html, body {
-        width: 100vw;
         height: 100vh;
     }
 
     body {
         background-image: linear-gradient(to top, var(--cor1), var(--cor2));
         color: white;
-        overflow-x: hidden;
     }
 
     main {
