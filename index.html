@@ -19,18 +19,18 @@
 
         <section id="formulario">
             <h1>Visa</h1>
-            <form action="#" method="post">
+            <form action="#" method="post" autocomplete="off">
                 <label for="inumero">Número do cartão:</label>
-                <input type="number" name="numero" class="numero" id="inumero" required placeholder="**** **** **** ****" minlength="16" maxlength="16">
+                <input type="text" name="numero" class="numero" id="inumero" required placeholder="**** **** **** ****">
 
                 <label for="inome">Nome Completo:</label>
-                <input type="text" name="nome" id="inome" required placeholder="nome completo" minlength="10" maxlength="20">
+                <input type="text" name="nome" id="inome" required placeholder="nome completo" maxlength="30">
 
                 <label for="idata">Expiração:</label>
                 <input type="month" name="data" id="idata">
 
                 <label for="icode">CVV code</label>
-                <input type="number" name="code" id="icode" required placeholder="cvv code" minlength="3" maxlength="3">
+                <input type="text" name="code" id="icode" required placeholder="cvv code">
         
                 <input type="submit" value="Enviar" class="envio">
             </form>
