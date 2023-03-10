@@ -186,3 +186,96 @@
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.411);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Configurações para telas de tablet */
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    html, body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body {
+        background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+        color: white;
+    }
+
+    main {
+        background-color: white;
+        color: black;
+        margin: auto;
+        padding: 10px;
+        height: 500px;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    section#cartao {
+        background-color: var(--cor3);
+        color: white;
+        width: 230px;
+        height: 100px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: auto;        
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575);
+    }
+
+    div.visa {
+        display: inline-block;
+        background-color: white;
+        width: 35px;
+        height: 32px;
+    }
+
+    img.sem-contato {
+        margin-left: 155px;
+    }
+
+    section#cartao p {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        margin: 10px;
+    }
+
+    label {
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    input {
+        display: block;
+        padding: 5px;
+        margin: 10px;
+        width: 140px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.527);
+    }
+
+    input.envio {
+        font-size: 1.2em;
+        background-color: #0c66c0;
+        color: white;
+        margin: 0px;
+        margin-top: 20px;
+        padding: 10px;
+        width: 100%;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.411);
+    }
+}
