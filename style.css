@@ -195,7 +195,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /* Configurações para telas de tablet */
+@media screen and (min-width: 768px) and (max-width: 1150px) { /* Configurações para telas de tablet */
 
     * {
         font-family: Arial, Helvetica, sans-serif;
